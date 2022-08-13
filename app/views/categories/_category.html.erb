@@ -1,0 +1,9 @@
+<div class="not-single" id="<%= dom_id category %>">
+ <div class="category-img">
+    <%= image_tag example_img(category), class: "cat-img" %>
+  </div>
+  <p class = "all-details">
+    <strong><%= category.name %></strong>
+    <span>$ <%= category.transactions.all.sum(:amount) %> </span>
+  </p>
+</div>

@@ -13,3 +13,145 @@
  *= require_tree .
  *= require_self
  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.alert {
+  font-size: 12px;
+  margin-top: -15px;
+  height: 5px;
+  color: rgb(196, 52, 27);
+}
+
+.my-logo {
+  display: flex;
+  justify-content: center;
+  margin: 60px 0 150px 0;
+  width: auto;
+}
+
+.my-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+span {
+  width: 50px;
+  margin-left: -20px;
+}
+
+#btn-log {
+  background-color: #316b07;
+  border: none;
+}
+
+#btn-sign {
+  background-color: #4b91e1;
+  border: none;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-evenly;
+  height: 60px;
+  background-color: #4b91e1;
+  color: #f2f2f2;
+}
+
+svg {
+  margin-top: 12px;
+  margin-left: -45px;
+}
+
+.sign-out {
+  color: white;
+  text-decoration: none;
+}
+
+.out {
+  margin-top: 12px;
+}
+
+.link {
+  color: white;
+}
+
+h2 {
+  margin-top: 12px;
+}
+
+.user-nouveau {
+  margin-top: 50px;
+}
+
+.cat-img {
+  width: 80px;
+  border-radius: 5px;
+  height: 75px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.principale-cat {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.not-single {
+  height: 85px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: rgba(116, 126, 146, 0.774) 0 0 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cat {
+  text-decoration: none;
+  color: #434b54;
+}
+
+.all-details {
+  margin-top: 20px;
+  margin-right: 20px;
+  gap: 100px;
+  display: flex;
+}
+
+.page {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  background-color: rgba(180, 196, 218, 0.747);
+}
+
+.augment-category {
+  display: flex;
+  justify-content: center;
+  margin-top: 180px;
+  height: 80px;
+  margin-bottom: 20px;
+  background-color: #5fb523;
+  border-radius: 5px;
+}
+
+.new {
+  text-decoration: none;
+  border: 1px solid;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  width: 90%;
+  padding-top: 10px;
+  margin: 15px 0 15px 0;
+}
