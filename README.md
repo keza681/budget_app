@@ -14,7 +14,8 @@ Major language
 ## Code demo
 [Demo video](https://www.loom.com/share/aaa84d022edf45abbafe53102a44bd0a)
 
-## Live
+## Live
+
 [Heroku deploy](https://budget-her.herokuapp.com/)
 
 ### Prerequisites
