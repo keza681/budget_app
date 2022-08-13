@@ -1,0 +1,9 @@
+<div class="container">
+	  <div class="my-logo">
+        <%= image_tag("budgetimage.png", width:'200px', class: "img", height:'160px') %>
+      </div>
+	<div class="buttons-main">
+		<%= link_to 'Log in', new_user_session_url, id: "btn-log", class: "btn btn-success" %>
+		<%= link_to 'Sign up', new_user_registration_url, id: "btn-sign", class: "btn btn-primary" %>
+	</div>
+</div>
