@@ -54,7 +54,10 @@ Leave a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
+- Microverse: [microverse community](https://github.com/microverseinc)
+
+Original design idea by [Gregoire Vella on Behance](https://www.behance.net/gregoirevella). Thanks also [The Creative Commons license](https://creativecommons.org/licenses/by-nc/4.0/).
+
 
 ## 📝 License
 
