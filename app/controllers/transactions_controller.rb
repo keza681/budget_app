@@ -17,7 +17,6 @@ class TransactionsController < ApplicationController
 
   def edit; end
 
-
   def create
     @transaction = Transaction.new(transaction_params)
     @transaction.user_id = current_user.id
@@ -25,7 +24,8 @@ class TransactionsController < ApplicationController
     respond_to do |format|
       if @transaction.save
         format.html do
-          redirect_to category_transactions_path(@transaction.category_id), notice: 'Congratulations, Your Transaction was successfully created.'
+          redirect_to category_transactions_path(@transaction.category_id),
+                      notice: 'Congratulations, Your Transaction was successfully created.'
         end
         format.json { render :show, status: :created, location: @transaction }
       else
