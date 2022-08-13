@@ -23,7 +23,7 @@ default: &default
 
 development:
   <<: *default
-  database: budget_app_development
+  database: budget_app
   username: postgres
   password: postgres
 

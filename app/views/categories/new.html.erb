@@ -1,4 +1,4 @@
-<div class="section-header">
+<div class="my-header">
 <p style="color: green"><%= notice %></p>
 <div class="back">
     <a class="link" href="/categories"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
@@ -6,7 +6,7 @@
     </svg></a>
 </div>
   <h2>Categories</h2>
-<p class= "out"><%= link_to "Sign out", destroy_user_session_path, class: "sign-out", method: :delete, data: { confirm: 'Confirm if you want to signout' } %></p>
+<p class= "out"><%= link_to "Sign out", destroy_user_session_path, class: "sign-out", method: :delete, data: { confirm: 'Are you sure?' } %></p>
 </div>
 <h2>Add a new category</h2>
 <%= render "form", category: @category %>

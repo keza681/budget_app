@@ -2,7 +2,7 @@
 <%= form_with(model: category) do |form| %>
   <% if category.errors.any? %>
     <div style="color: red">
-      <h2><%= pluralize(category.errors.count, "error") %>Impossible, This category can no be saved:</h2>
+      <h2><%= pluralize(category.errors.count, "error") %> You can not save this category:</h2>
 
       <ul>
         <% category.errors.each do |error| %>
@@ -19,10 +19,10 @@
 
   <div>
     <%= form.label :icon, class: "form-label", style: "display: block" %>
-    <%= form.url_field :icon, class: "form-control", placeholder: "Add a png URL" %>
+    <%= form.url_field :icon, class: "form-control", placeholder: "Add a valid png URL" %>
   </div><br>
 
-  <div class="my-buttons">
+  <div class="buttons-main">
     <%= form.submit class: "btn btn-success", id: "btn-log" %>
   </div>
 <% end %>

@@ -3,4 +3,5 @@ class Category < ApplicationRecord
   has_many :transactions
 
   validates :user_id, presence: true
+
 end

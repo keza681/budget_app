@@ -13,9 +13,9 @@ class CategoriesController < ApplicationController
   def create
     @category = current_user.categories.create(category_params)
     if @category.save
-      flash[:notice] = 'You have successfully created a category, congratulations...'
+      flash[:notice] = 'Congratulations... Your Category was successfully created.'
     else
-      flash.now[:notice] = 'Oups!!! Failed to created a category, retry later...'
+      flash.now[:notice] = 'Oups! Impossible to created to create a category'
     end
     redirect_to root_path
   end
@@ -23,7 +23,7 @@ class CategoriesController < ApplicationController
   def destroy
     @category = Category.find(params[:id])
     @category.destroy
-    flash[:notice] = 'You have destroyed a Category successfully, Congratulations...'
+    flash[:notice] = 'Oups! Category removed successfully'
     redirect_to root_path
   end
 
